@@ -81,6 +81,8 @@
 ## Формат входящих параметров
 * input (строка): Строка, для которой нужно вычислить частоту встречи символов.
 * Допустимая длина строки: от 1 до 10 000 символов.
+> [!NOTE]
+> ![image](https://github.com/Recwayer/TestTaskRestAPI/assets/95271934/cf2e4cb0-d360-49cc-af6b-29f9b3f9ef80)
 * Запрос должен состоять из одной строки.
 > [!NOTE]
 > ![image](https://github.com/Recwayer/TestTaskRestAPI/assets/95271934/1a4c0a5a-7600-426e-941d-cfab5589b8bb)
