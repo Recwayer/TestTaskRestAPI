@@ -21,13 +21,13 @@ public class FrequencyController {
 
     @PostMapping("/calculateFrequency")
     public Map<Character, Integer> calculateFrequency(@RequestBody String input) {
-        if (input == null || input.trim().isEmpty()) {
+        if (input == null || input.isEmpty()) {
             throw new ClientRequestException.InputException("Input cannot be empty.");
         } else if(input.length()>10000){
             throw new ClientRequestException.InputException(String.format("Input must not exceed 10000 characters. Current line length: %d.",input.length()));
         } else if(input.contains("\n") || input.contains("\r")){
             throw new ClientRequestException.InputException("Input cannot be divided into several lines.");
         }
-        return frequencyService.getFrequencyChar(input.trim());
+        return frequencyService.getFrequencyChar(input);
     }
 }

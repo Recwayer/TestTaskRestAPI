@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 @Service
 public class FrequencyServiceImpl implements FrequencyService {
     public Map<Character, Integer> getFrequencyChar(String input) {
-        if(input==null||input.trim().isEmpty()){
+        if(input==null||input.isEmpty()){
             throw new IllegalArgumentException("Input cannot be empty.");
         }
         Map<Character, Integer> map = new HashMap<>();
