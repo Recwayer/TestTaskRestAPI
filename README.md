@@ -17,16 +17,17 @@
 - Maven (для сборки проекта)
 
 ### Инструкции по установке
-1. Склонируйте репозиторий: `git clone https://github.com/Recwayer/TestTaskRestAPI`
-2. Перейдите в каталог проекта: `cd TestTaskRestAPI`
-3. Соберите приложение: `mvn clean install`
+1. Склонируйте репозиторий: **`git clone https://github.com/Recwayer/TestTaskRestAPI`**
+2. Перейдите в каталог проекта: **`cd TestTaskRestAPI`**
+3. Соберите приложение: **`mvn clean install`**
 
 ### Сборка и запуск
-- Соберите и запустите приложение: `java -jar target/testtaskrestapi-1.0.jar`
+- Соберите и запустите приложение: **`java -jar target/testtaskrestapi-1.0.jar`**
 
 ### Примеры запросов
 - Для отправки запроса к API, используйте HTTP-клиент, такой как Postman
-- Запрос POST: `POST localhost:8088/calculateFrequency`
+- Запрос POST: **`POST localhost:8088/calculateFrequency`**
+
 
 ## Документация по запуску в IntelliJ IDEA
 
@@ -37,16 +38,16 @@
 ### Инструкции по установке
 1. Клонирование репозитория:
 - Откройте IntelliJ IDEA.
-- Нажмите `Get from Version Control` (Получить из контроля версий) на экране приветствия или перейдите в меню `File` (Файл) > `New` (Новый) > `Project from Version Control` (Проект из системы контроля версий).
-- Введите URL репозитория: `https://github.com/Recwayer/TestTaskRestAPI`
-- Укажите путь к каталогу, где вы хотите сохранить проект, и нажмите `Clone`
+- Нажмите **`Get from Version Control`** (Получить из контроля версий) на экране приветствия или перейдите в меню **`File`** (Файл) > **`New`** (Новый) > **`Project from Version Control`** (Проект из системы контроля версий).
+- Введите URL репозитория: **`https://github.com/Recwayer/TestTaskRestAPI`**
+- Укажите путь к каталогу, где вы хотите сохранить проект, и нажмите **`Clone`**
 2. Открытие проекта:
 - После завершения клонирования, IntelliJ IDEA автоматически откроет проект.
 3. Импорт проекта:
 - IntelliJ IDEA автоматически обнаружит, что это проект Maven. Если необходимо, подтвердите импорт и настройку проекта.
 
 ### Запуск приложения
-1. Найдите класс с методом `TestTaskRestApiApplication`:
+1. Найдите класс **`TestTaskRestApiApplication`**:
 - Откройте структуру проекта в IntelliJ IDEA (обычно находится в левой части окна).
 - Раскройте каталог "src" > "main" > "java".
 - Найдите класс **`TestTaskRestApiApplication`**.
@@ -64,7 +65,7 @@
 Это REST API позволяет вычислить частоту встречи символов в заданной строке. Результат сортируется в порядке убывания количества вхождений символов в строку.
 
 ## Эндпоинты API
-**/calculateFrequency**
+**`/calculateFrequency`**
 * Метод: POST
 * Описание: Вычисляет частоту встречи символов в заданной строке.
 * Входящие параметры:
